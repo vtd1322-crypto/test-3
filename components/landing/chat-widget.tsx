@@ -51,7 +51,7 @@ export function ChatWidget() {
     } catch {
       setMessages((prev) => [
         ...prev,
-        { from: "bot", text: "Xin lỗi, mình chưa trả lời được lúc này. Bạn thử lại sau nhé." },
+        { from: "bot", text: "Xin lỗi hệ thống đang bảo trì" },
       ]);
     } finally {
       setLoading(false);
